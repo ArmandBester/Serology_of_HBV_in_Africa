@@ -1,0 +1,294 @@
+---
+title: "AfricanRegions"
+author: "Armand Bester"
+date: "11 September 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+<br>
+
+#### On behalve of the authors of the work:
+### Application of sero-epidemiology data to informing interventions for HBV in Africa: should diagnosis and treatment replace catch-up vaccination?
+
+<br>
+
+
+#### Load some handy libraries
+```{r libs}
+library(readxl)
+library(dplyr)
+library(ggplot2)
+library(leaflet)
+library(readr)
+library(ggmap)
+library(maptools)
+library(rgeos)
+library(scales)
+library(RColorBrewer)
+library(gpclib)
+library(gridExtra)
+
+
+```
+
+<br>
+
+#### Load the data and select the columns needed.
+
+From the data it seems the grey rows are to be added or there is no data yet.  I removed the rows where Citation is blank/NA
+
+```{r getData}
+# ox.df <- read_xlsx('180907 Metadata for Prisma analysis REVIEWED.xlsx', col_names = TRUE, range = "A1:S121") 
+# # remove all the rows where citation is NA
+# ox.df <- ox.df %>%
+#   filter(!is.na(ox.df$Citation))
+
+
+ox.df <- read_csv("AfricaHBV.csv", col_names = TRUE)
+```
+
+
+#### Average the 5 regions and place it in a data frame
+
+<br>
+
+Average Anit-HBc only
+
+<br>
+
+```{r AvgAntiHbcOnly}
+
+### Do some ground work
+# convert cohort size to numeric
+ox.df$CohortSize <- as.numeric(ox.df$CohortSize)
+ox.df$`Anti-HBc_only_prevalence ` <- as.numeric(ox.df$`Anti-HBc_only_prevalence`)
+
+AntiHBcOnly <- ox.df %>% 
+ group_by(AfricanRegion) %>% 
+  summarise(mean = mean(`Anti-HBc_only_prevalence`), n = n())
+
+colnames(AntiHBcOnly) <- c("region", "AntiHBcOnly", "n")
+
+```
+
+<br>
+
+Average the anti-HBc prevelance 
+
+<br>
+
+```{r AvgAntiHbc}
+
+AntiHBc <- ox.df %>% 
+ group_by(AfricanRegion) %>% 
+  summarise(mean = mean(`Anti-HbcPrevalence`), n = n())
+
+colnames(AntiHBc) <- c("region", "AntiHBc", "n")
+
+```
+
+<br>
+
+Average the Estimated suseptable population size
+
+<br>
+
+```{r EstSusPop}
+
+EstSusPop <- ox.df %>% 
+ group_by(AfricanRegion) %>% 
+  summarise(mean = mean(EstimatedSusceptiblePopulation), n = n())
+
+colnames(EstSusPop) <- c("region", "EstSusPop", "n")
+
+```
+
+<br>
+
+Average the SAg prevelance
+
+<br>
+
+```{r SAgPrev}
+
+HBsAgPrevalence <- ox.df %>% 
+ group_by(AfricanRegion) %>% 
+  summarise(mean = mean(HBsAgPrevalence), n = n())
+
+colnames(HBsAgPrevalence) <- c("region", "HBsAgPrevalence", "n")
+
+
+```
+
+<br>
+
+#### Combine the prevelance data by region into one convenient dataframe
+
+<br>
+
+```{r combine}
+
+plot.df <- cbind(AntiHBc[,c(1,2)], AntiHBcOnly[,2], 
+                 EstSusPop[,2], HBsAgPrevalence[,c(2,3)])
+
+# clean up a bit
+rm(AntiHBc, AntiHBcOnly, HBsAgPrevalence, EstSusPop)
+
+```
+
+<br>
+
+#### Create coutry/region lookup table from Anna's data
+
+<br>
+
+```{r countryRegionTable}
+
+region.lookup.df <- read_xlsx('180907 Metadata for Prisma analysis REVIEWED.xlsx', 
+                              col_names = TRUE, range = "A1:R121") 
+
+region.lookup.df <- region.lookup.df %>% 
+  select(c(1,16))
+
+# Due to small differances in the country names, add the 'alternative' spelling to the lookup table
+add.df <- data.frame("id" = c("Cote d`Ivoire", "Congo-Brazzaville", "Swaziland"), 
+                     "region" = c("West", "Central", "South"))
+
+colnames(region.lookup.df) <- c("id", "region")
+
+region.lookup.df <- rbind(region.lookup.df, add.df)
+
+table(region.lookup.df$region)
+
+rm(add.df) # we don't need this anymore
+```
+
+
+<br>
+
+#### Plotting
+
+<br>
+
+```{r}
+
+# read in the shape file
+africa.shp <- readShapeSpatial("Africa_SHP/Africa.shp")
+
+# permit the use for gpclib
+gpclibPermit()
+
+# convert the shape file to a dataframe
+africa.shp.f <- fortify(africa.shp, region = "COUNTRY")
+
+# merge regional data
+merge.shp.coef<-merge(africa.shp.f, region.lookup.df, by="id", all.x=TRUE)
+
+# merge prevelance data
+merge.shp.coef <- merge(merge.shp.coef, plot.df, by = "region", all.x=TRUE)
+
+# correctly order the polygon data
+final.plot<-merge.shp.coef[order(merge.shp.coef$order), ] 
+
+# plot
+fig1G <- ggplot()+
+  geom_polygon(data = final.plot,
+               aes(x = long, y = lat, group = group, fill = final.plot$HBsAgPrevalence),
+               color = "black", size = 0.2)+
+  coord_map()+
+  scale_fill_distiller(palette = "Greens", direction = 1, name = "")+
+  theme(panel.background = element_blank(), axis.text = element_blank(),
+        axis.title = element_blank(), axis.ticks = element_blank())+
+  ggtitle("G") + theme(plot.title = element_text(size = 30), legend.text = element_text(size = 20))
+
+# plot
+fig1H <- ggplot()+
+  geom_polygon(data = final.plot,
+               aes(x = long, y = lat, group = group, fill = final.plot$AntiHBc),
+               color = "black", size = 0.2)+
+  coord_map()+
+  scale_fill_distiller(palette = "Greens", direction = 1, name = "")+
+  theme(panel.background = element_blank(), axis.text = element_blank(),
+        axis.title = element_blank(), axis.ticks = element_blank())+
+  ggtitle("H") + theme(plot.title = element_text(size = 30), legend.text = element_text(size = 20))
+
+# plot
+fig1I <- ggplot()+
+  geom_polygon(data = final.plot,
+               aes(x = long, y = lat, group = group, fill = final.plot$EstSusPop),
+               color = "black", size = 0.2)+
+  coord_map()+
+  scale_fill_distiller(palette = "Greens", direction = 1, name = "")+
+  theme(panel.background = element_blank(), axis.text = element_blank(),
+        axis.title = element_blank(), axis.ticks = element_blank())+
+  ggtitle("I") + theme(plot.title = element_text(size = 30), legend.text = element_text(size = 20))
+
+
+
+# resources for geoplotting
+
+# http://www.maplibrary.org/library/stacks/Africa/index.htm
+# http://rforpublichealth.blogspot.com/2015/10/mapping-with-ggplot-create-nice.html
+
+```
+
+<br>
+#### Final figure
+<br>
+
+```{r}
+
+# plots = list(fig1G,
+#              fig1H,
+#              fig1I)
+#              
+# figure <- grid.arrange(grobs= lapply(plots, "+", theme(plot.margin=margin(1,1,1,1))), 
+#                        ncol = 3, nrow = 1)
+# 
+# figure <- grid.arrange(arrangeGrob(fig1G, fig1H, fig1I, ncol = 3))
+# 
+# figure
+
+# save the figures seperately and use Inkscape to create the final image
+ggsave("fig1G.jpeg", fig1G, dpi = 600, height = 7, width = 7)
+ggsave("fig1H.jpeg", fig1H, dpi = 600, height = 7, width = 7)
+ggsave("fig1I.jpeg", fig1I, dpi = 600, height = 7, width = 7)
+
+
+
+```
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

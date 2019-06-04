@@ -1,0 +1,101 @@
+Place,Country,C_or_I,City,CohortCharacteristics,Size_of_cohort,Age_of_cohort,Anti-Hbc_prevalence,HBsAg_prevalence,Estimated_susceptible_population,African_Region,Anti-HBc_HBsAg_ratio,lat,long
+"Angola,Luanda",Angola,Continent,Luanda,Hospital visitors,508,Median 34,0.797,0.151,0.20299999999999996,Central,5.2781456953642385,-8.839987599999999,13.2894368
+"Benin,Atacora District",Benin,Continent,Atacora District,Antenatal,283,Mean 26.2,0.413,0.155,0.587,West,2.664516129032258,10.7954931,1.6760691
+"Benin,Cotonou",Benin,Continent,Cotonou,"NK, hospital trial",305,Mean 26.9  ± 12.8,0.648,0.163,0.352,West,3.9754601226993866,6.3702928,2.3912362
+"Botswana,Gaberone",Botswana,Continent,Gaberone,HIV positive,295,Median 36,0.295,0.041,0.7050000000000001,South,7.1951219512195115,-24.6282079,25.9231471
+"Burkina Faso,Bobo Dioulasso",Burkina Faso,Continent,Bobo Dioulasso,HIV positive,996,Median 38,0.833,0.128,0.16700000000000004,West,6.5078125,11.1649219,-4.3051542
+"Burkina Faso,Nouna (rural)",Burkina Faso,Continent,Nouna (rural),"Blood donors, antenatal",289,Mean 25.3,0.696,0.143,0.30400000000000005,West,4.8671328671328675,12.238333,-1.561593
+"Burkina Faso,Ouagadougou (urban)",Burkina Faso,Continent,Ouagadougou (urban),"Blood donors, antenatal",238,Mean 25.7,0.764,0.173,0.236,West,4.416184971098266,12.3714277,-1.5196603
+"Cameroon,Mvog-Ada Health Area of the Djoungolo Health District",Cameroon,Continent,Mvog-Ada Health Area of the Djoungolo Health District,Healthcare workers,100,Mean 30.5,0.11,0.08,0.89,Central,1.375,3.8673525,11.5268707
+"Cameroon,South West and Littoral regions",Cameroon,Continent,South West and Littoral regions,HIV positive,455,Mean 33.8,0.618,0.255,0.382,Central,2.4235294117647057,7.369721999999999,12.354722
+"Cameroon,Southwest Region (multiple sites)",Cameroon,Continent,Southwest Region (multiple sites),Healthcare workers,237,Median 34,0.734,0.063,0.266,Central,11.65079365079365,5.1573493,9.367308399999999
+"Cameroon,Yaounde",Cameroon,Continent,Yaounde,HIV positive,169,Median 35,0.817,0.101,0.18300000000000005,Central,8.089108910891088,3.8480325,11.5020752
+"Cameroon,Yaoundé",Cameroon,Continent,Yaoundé,HIV positive,212,Median 37.6,0.783,0.118,0.21699999999999997,Central,6.635593220338984,3.8480325,11.5020752
+"Central African Republic (CAR),Bangui & multiple sites",Central African Republic (CAR),Continent,Bangui & multiple sites,Students,801,Mean 20.8,0.423,0.155,0.577,Central,2.729032258064516,4.3946735,18.5581899
+"Central African Republic (CAR),Multiple rural sites",Central African Republic (CAR),Continent,Multiple rural sites,Cross-sectional,273,Mean 27,0.271,0.106,0.729,Central,2.556603773584906,6.611110999999999,20.939444
+"Central Aftrian Republic,Bangui",Central Aftrian Republic,Continent,Bangui,"Antenatal, students",2172,Mean 23.1 ± 5.0,0.246,0.084,0.754,Central,2.9285714285714284,4.3946735,18.5581899
+"Cote d'Ivoire,Abidjan",Cote d'Ivoire,Continent,Abidjan,HIV positive,491,Mean 36 ± 8.68,0.729,0.134,0.271,West,5.440298507462686,5.3599517,-4.0082563
+"Cote d'Ivoire,Abidjan",Cote d'Ivoire,Continent,Abidjan,HIV positive,495,Median 35,0.45,0.13,0.55,West,3.4615384615384617,5.3599517,-4.0082563
+"cote d'Ivoire,Grand Bassam",cote d'Ivoire,Continent,Grand Bassam,Mothers,836,Mean 28.7,0.723,0.099,0.277,West,7.303030303030303,5.225936,-3.753666299999999
+"Cote d'Ivoire,Nationwide",Cote d'Ivoire,Continent,Nationwide,HIV/STI testing clinic,429,Range 20-50,0.861,0.099,0.139,West,8.696969696969697,7.539988999999999,-5.547079999999999
+"Cote d'Ivoire,Valley of Bandarna- Bouake",Cote d'Ivoire,Continent,Valley of Bandarna- Bouake,"Healthcare, hotel, military workers",171,NK,0.7,0.19,0.30000000000000004,West,3.6842105263157894,7.690466,-5.0390536
+"Egypt,Tanta City, Egypt",Egypt,Continent,"Tanta City, Egypt",Healthcare workers,564,Mean 33.0 ± 9.8,0.245,0.014,0.755,North,17.5,30.78650859999999,31.0003757
+"Equatorial Guinea,Multiple sites (recruited in Spain)",Equatorial Guinea,Continent,Multiple sites (recruited in Spain),Immigrants from Equatorial Guinea Living in Spain,1220,Median 41,0.673,0.079,0.32699999999999996,Central,8.518987341772153,1.650801,10.267895
+"Eritrea,Massawa",Eritrea,Continent,Massawa,Sex workers (Female),107,Median 24.5,0.53,0.03,0.47,East,17.666666666666668,15.607875,39.4553839
+"Ethiopia,Addis Ababa",Ethiopia,Continent,Addis Ababa,HIV testing clinic,620,Mean 29.5,0.448,0.057,0.552,East,7.859649122807017,8.9806034,38.7577605
+"Ethiopia,Addis Ababa",Ethiopia,Continent,Addis Ababa,Medical waste handlers,126,Mean 35.7,0.476,0.063,0.524,East,7.555555555555555,8.9806034,38.7577605
+"Ethiopia,Addis Ababa",Ethiopia,Continent,Addis Ababa,Non medical waste handlers,126,Mean 33.5,0.317,0.008,0.683,East,39.625,8.9806034,38.7577605
+"Ethiopia,Hawassa",Ethiopia,Continent,Hawassa,Medical waste handlers,156,Mean 31.6,0.394,0.013,0.606,East,30.30769230769231,7.050374199999999,38.4955043
+"Ethiopia,Hawassa",Ethiopia,Continent,Hawassa,HIV positive,477,Mean 33.4,0.222,0.063,0.778,East,3.5238095238095237,7.050374199999999,38.4955043
+"Gabon,Franceville",Gabon,Continent,Franceville,HIV positive,762,Median 41.5,0.803,0.093,0.19699999999999995,Central,8.634408602150538,-1.6196441,13.6015463
+"Gabon,Haut Ogooue Province",Gabon,Continent,Haut Ogooue Province,Equatorial forest villagers,311,Mean 38,0.868,0.086,0.132,Central,10.093023255813954,-1.4762544,13.914399
+"Gabon,Libreville",Gabon,Continent,Libreville,HIV positive,487,Median 44 (37 - 42),0.85,0.088,0.15000000000000002,Central,9.65909090909091,0.4161976,9.4672676
+"Gambia,Multiple sites",Gambia,Continent,Multiple sites,Vaccinated young adults,278,NK,0.274,0.008,0.726,West,34.25,13.443182,-15.310139
+"Gambia,Multiple sites",Gambia,Continent,Multiple sites,Unvaccianted young adults,475,NK,0.56,0.124,0.43999999999999995,West,4.516129032258065,13.443182,-15.310139
+"Guinea-Bissau,Bissau",Guinea-Bissau,Continent,Bissau,HIV positive,576,Median 38,0.811,0.163,0.18899999999999995,West,4.975460122699387,11.8816553,-15.6177942
+"Kenya,Coastal Kenya",Kenya,Continent,Coastal Kenya,HIV negative MSM,525,NK,0.259,0.08,0.741,East,3.2375,-0.023559,37.906193
+"Kenya,Multiple sites",Kenya,Continent,Multiple sites,Cross-sectional,1091,Range 15-64,0.315,0.021,0.685,East,15,-0.023559,37.906193
+"Lesotho,Mafeteng Government Hospital",Lesotho,Continent,Mafeteng Government Hospital,HIV positive,205,Median 42,0.355,0.054,0.645,South,6.5740740740740735,-29.8224312,27.2388161
+"Libya,Eastern Libya",Libya,Continent,Eastern Libya,Healthcare workers,601,Mean 32.9,0.085,0.018,0.915,North,4.722222222222223,26.3351,17.228331
+"Libya,Tripoli",Libya,Continent,Tripoli,Healthcare workers,2704,Mean 35.5,0.173,0.011,0.827,North,15.727272727272727,32.8872094,13.1913383
+"Madagascar,Mataipako and Sirama",Madagascar,Island,Mataipako and Sirama,Sugarcane plantation workers,563,Median 29,0.57,0.085,0.43000000000000005,East,6.705882352941176,-18.766947,46.869107
+"Malawi,Lilongwe",Malawi,Continent,Lilongwe,"HIV positive, antenatal",2369,Median 25 ( IQR 22 - 29),0.483,0.05,0.517,East,9.659999999999998,-13.9626121,33.7741195
+"Mauritania,Nouakchott",Mauritania,Continent,Nouakchott,Antenatal,1020,Mean 26.5,0.663,0.107,0.33699999999999997,West,6.196261682242991,18.0735299,-15.9582372
+"Mauritania,Nouakchott",Mauritania,Continent,Nouakchott,Patients,946,Mean 34.6,0.765,0.183,0.235,West,4.180327868852459,18.0735299,-15.9582372
+"Morocco,Rabat",Morocco,Continent,Rabat,Barbers and clients,796,NK,0.217,0.018,0.783,North,12.055555555555557,33.9715904,-6.8498129
+"Morocco,Rabat, Taza, Temara–Skhirat",Morocco,Continent,"Rabat, Taza, Temara–Skhirat",Healthcare workers,420,Mean 41.4,0.28,0.01,0.72,North,28.000000000000004,33.9715904,-6.8498129
+"Mozambique,Maputo region",Mozambique,Continent,Maputo region,Blood donors,1578,Mean 32.8 +- 11.7,0.645,0.093,0.355,East,6.935483870967742,-25.969248,32.5731746
+"Namibia,West Caprivi",Namibia,Continent,West Caprivi,Bushmen,106,NK,0.61,0.18,0.39,South,3.388888888888889,-17.8193419,23.9536466
+"Nigeria,Benue",Nigeria,Continent,Benue,Cross-sectional,1535,NK,0.382,0.12,0.618,West,3.1833333333333336,7.350825899999999,8.8362755
+"Nigeria,Ibadan, southwestern Nigeria",Nigeria,Continent,"Ibadan, southwestern Nigeria",Antenatal,272,NK,0.444,0.055,0.556,West,8.072727272727272,7.3775355,3.9470396
+"Nigeria,Lagos",Nigeria,Continent,Lagos,Healthcare workers (surgeons),167,Mean 32.3,0.617,0.257,0.383,West,2.4007782101167314,6.5243793,3.3792057
+"Nigeria,Lagos",Nigeria,Continent,Lagos,Admin staff (hospital),193,Mean 32.3,0.534,0.15,0.46599999999999997,West,3.5600000000000005,6.5243793,3.3792057
+"Nigeria,Lagos",Nigeria,Continent,Lagos,Diabetics,100,NK,0.45,0.2,0.55,West,2.25,6.5243793,3.3792057
+"Nigeria,Lagos",Nigeria,Continent,Lagos,Students,231,Mean 24.3 ± 3.98,0.26,0.039,0.74,West,6.666666666666667,6.5243793,3.3792057
+"Nigeria,Lagos",Nigeria,Continent,Lagos,Outpatients,80,NK,0.57,0.175,0.43000000000000005,West,3.257142857142857,6.5243793,3.3792057
+"Nigeria,Nationwide",Nigeria,Continent,Nationwide,Cross-sectional,965,Mean 37.2 (±17),0.546,0.122,0.45399999999999996,West,4.475409836065574,9.081999,8.675277
+"Nigeria,NK",Nigeria,Continent,NK,Healthcare workers,88,NK,0.56,0.13,0.43999999999999995,West,4.307692307692308,9.081999,8.675277
+"Nigeria,Sumaila, Wudil, and Gaya",Nigeria,Continent,"Sumaila, Wudil, and Gaya",Antenatal,160,NK,0.444,0.069,0.556,West,6.434782608695651,11.7942415,8.839032099999999
+"Niger,Niamey",Niger,Continent,Niamey,Healthcare workers,207,NK,0.835,0.193,0.16500000000000004,West,4.326424870466321,13.5115963,2.1253854
+"Reunion,Reunion",Reunion,Island,Reunion,Antenatal clinc,1455,NK,0.0635,0.0063,0.9365,East,10.079365079365079,-21.115141,55.536384
+"Reunion,Reunion",Reunion,Island,Reunion,Prison,100,NK,0.1,0.02,0.9,East,5,-21.115141,55.536384
+"Rwanda,Kigali",Rwanda,Continent,Kigali,HIV positive,418,Mean 34.6,0.429,0.052,0.571,East,8.25,-1.9705786,30.1044288
+"Rwanda,Multiple sites",Rwanda,Continent,Multiple sites,Blood donors,581,NK,0.21,0.041,0.79,East,5.121951219512194,-1.940278,29.873888
+"Senegal,Dakar",Senegal,Continent,Dakar,HIV positive,466,Median 39,0.761,0.101,0.239,West,7.534653465346534,14.716677,-17.4676861
+"Senegal,Dakar",Senegal,Continent,Dakar,HIV positive,363,Mean 38,0.832,0.168,0.16800000000000004,West,4.952380952380952,14.716677,-17.4676861
+"Somalia,Mogadishu",Somalia,Continent,Mogadishu,"Blood donors, in-patients",162,NK,0.292,0.199,0.708,East,1.4673366834170853,2.0469343,45.3181623
+"Somalia,Multiple sites (recruited in US)",Somalia,Continent,Multiple sites (recruited in US),Somali refugees in US,735/1109*,NK,0.556,0.136,0.44399999999999995,East,4.088235294117647,5.152149,46.199616
+"South Africa,Gauteng and Mpumalanga province",South Africa,Continent,Gauteng and Mpumalanga province,Healthcare workers,333,Mean 38.8  (range: 19-62),0.19,0.096,0.81,South,1.9791666666666667,-25.565336,30.5279096
+"South Africa,Johannesburg",South Africa,Continent,Johannesburg,"HIV positive, outpatients",502,Mean 39.9,0.106,0.048,0.894,South,2.208333333333333,-26.2041028,28.0473051
+"South Africa,Limpopo",South Africa,Continent,Limpopo,HIV postitve,380,NK,0.6,0.2,0.4,South,2.9999999999999996,-23.4012946,29.4179324
+"South Africa,Medunsa Campus; large hospital 31 km north–west of Pretoria",South Africa,Continent,Medunsa Campus; large hospital 31 km north–west of Pretoria,HIV positive,167,NK,0.85,0.352,0.15000000000000002,South,2.4147727272727275,-23.8888188,29.73855
+"South Africa,Medunsa Campus; large hospital 31 km north–west of Pretoria",South Africa,Continent,Medunsa Campus; large hospital 31 km north–west of Pretoria,HIV negative,128,NK,0.82,0.162,0.18000000000000005,South,5.061728395061728,-23.8888188,29.73855
+"South Africa,Schmidtsdrift",South Africa,Continent,Schmidtsdrift,Bushmen,400,NK,0.57,0.062,0.43000000000000005,South,9.193548387096774,-28.7008621,24.0562338
+"South Africa,Soweto",South Africa,Continent,Soweto,HIV positive,998,Median 29,0.37,0.042,0.63,South,8.809523809523808,-26.2485377,27.8540323
+"South Africa,Tshwane District Hospital, Pretoria, Gauteng province",South Africa,Continent,"Tshwane District Hospital, Pretoria, Gauteng province",HIV negative,200,Mean 31,0.035,0.02,0.965,South,1.7500000000000002,-25.7321568,28.2016728
+"South Africa,Tshwane District Hospital, Pretoria, Gauteng province",South Africa,Continent,"Tshwane District Hospital, Pretoria, Gauteng province",HIV positive,200,Mean 37,0.16,0.065,0.84,South,2.4615384615384617,-25.7321568,28.2016728
+"South Africa,University of Limpopo Hosptial",South Africa,Continent,University of Limpopo Hosptial,HIV positive,192,Nk,0.38,0.229,0.62,South,1.6593886462882095,-23.8888188,29.73855
+"Sudan,Gezira state",Sudan,Continent,Gezira state,Cross-sectional,404,Mean 35,0.475,0.06,0.525,North,7.916666666666667,14.8859611,33.438353
+"Sudan,Khartoum",Sudan,Continent,Khartoum,Blood donors,404,NK,0.36,0.11,0.64,North,3.2727272727272725,15.5006544,32.5598994
+"Sudan,Khartoum State",Sudan,Continent,Khartoum State,HIV positive,358,Mean 35.2 ± 9.3,0.628,0.117,0.372,North,5.367521367521367,15.7937709,32.8986812
+"Sudan,Khartoum State",Sudan,Continent,Khartoum State,Healthcare workers,843,NK,0.57,0.06,0.43000000000000005,North,9.5,15.7937709,32.8986812
+"Tanzania,Mwanza",Tanzania,Continent,Mwanza,Healthcare workers,598,NK,0.355,0.07,0.645,East,5.07142857142857,-2.5164305,32.9174517
+"Tanzania,Pemba Island and Iringa",Tanzania,Continent,Pemba Island and Iringa,Hospital Patients,282,NK,0.293,0.043,0.7070000000000001,East,6.813953488372094,-5.031935199999999,39.7755571
+"Togo,Lome",Togo,Continent,Lome,Vaccinated healthcare workers,100,Mean 35.2,0.68,0.36,0.31999999999999995,West,1.888888888888889,6.1724969,1.2313618
+"Togo,Lome",Togo,Continent,Lome,Unvaccinated students,50,Mean 33.2,0.88,0.56,0.12,West,1.5714285714285714,6.1724969,1.2313618
+"Togo,Lome",Togo,Continent,Lome,Clinical trial participants,150,NK,0.352,0.16,0.648,West,2.1999999999999997,6.1724969,1.2313618
+"Tunisia,Béja and Tataouine",Tunisia,Continent,Béja and Tataouine,Cross-sectional,9486,NK,0.285,0.053,0.7150000000000001,North,5.377358490566038,32.9210902,10.4508956
+"Tunisia,l’hôpital Aziza-Othmana",Tunisia,Continent,l’hôpital Aziza-Othmana,Haemphilliacs,70,Mean 19,0.529,0.071,0.471,North,7.450704225352114,36.7969453,10.168652
+"Tunisia,Sousse",Tunisia,Continent,Sousse,Unvaccinated students,719,Mean 19.03,0.014,0,0.986,North,NA,35.8245029,10.634584
+"Uganda,Gulu Municipality",Uganda,Continent,Gulu Municipality,Cross-sectional,790,NK,0.724,0.176,0.276,East,4.113636363636363,2.7805715,32.2994127
+"Uganda,Gulu Municipality",Uganda,Continent,Gulu Municipality,HIV positive,300,Mean 35.65 (+-10.6),0.41,0.067,0.5900000000000001,East,6.119402985074626,2.7805715,32.2994127
+"Uganda,Kampala and Entebbe",Uganda,Continent,Kampala and Entebbe,HIV positive,2317,Median 36,0.52,0.06,0.48,East,8.666666666666668,0.0511839,32.463708
+"Uganda,Kitgum District",Uganda,Continent,Kitgum District,HEV outbreak samples,656,NK,0.636,0.149,0.364,East,4.268456375838927,3.3396829,33.16888830000001
+"Uganda,Makerere",Uganda,Continent,Makerere,Students,182,NK (mostly <24),0.659,0.11,0.34099999999999997,East,5.990909090909091,0.329183,32.5709881
+"Uganda,Mulago",Uganda,Continent,Mulago,Healthcare workers,370,Mean 36.4,0.481,0.081,0.519,East,5.938271604938271,0.3476594,32.5732611
+"Uganda,Mulago",Uganda,Continent,Mulago,HIV postitive,129,Mean 34.4,0.651,0.178,0.349,East,3.6573033707865172,0.3476594,32.5732611
+"Uganda,Mulago",Uganda,Continent,Mulago,HIV negative,129,Mean 34.4,0.419,0.131,0.581,East,3.1984732824427478,0.3476594,32.5732611
+"Uganda,Mulitple regions",Uganda,Continent,Mulitple regions,Cross-sectional,5875,NK,0.523,0.103,0.477,East,5.077669902912622,1.373333,32.290275
+"Uganda,Raki",Uganda,Continent,Raki,Cross-sectional,138,Median 40 (IQR 31-50),0.41,0.05,0.5900000000000001,East,8.2,1.373333,32.290275
+"Zambia,Lusaka",Zambia,Continent,Lusaka,Antenatal,2098,NK,0.513,0.065,0.487,East,7.892307692307692,-15.3875259,28.3228165
+"Zimbabwe,Harare",Zimbabwe,Continent,Harare,HIV positive,999,Median 36,0.563,0.167,0.43700000000000006,East,3.3712574850299397,-17.8251657,31.03351
