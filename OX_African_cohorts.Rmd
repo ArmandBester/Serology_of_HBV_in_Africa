@@ -1,7 +1,7 @@
 ---
 title: "AfricanRegions"
 author: "Armand Bester"
-date: "11 September 2018"
+date: "22 November 2019"
 output: html_document
 ---
 
@@ -51,21 +51,27 @@ From the data it seems the grey rows are to be added or there is no data yet.  I
 
 
 
-ox.df <- read_csv("AfricaHBV.csv", col_names = TRUE)
+ox.df <- read_delim("AfricaHBV_update.csv", delim = '|', col_names = TRUE, 
+                    col_types = "cccccccccddcddcdddcdddcdd")
 
+ox.df <- ox.df %>%
+   filter(!is.na(ox.df$Citation))
+
+head(ox.df)
+str(ox.df)
+
+
+#country_location <- ox.df %>% 
+#  select(c('Country','Location'))
+  
+#country_location <- country_location[!duplicated(country_location[c(1,2)]), ]
+#write_delim(country_location, 'GeoCoding/places.csv')
 ```
 
 Make the column names a little bit more R friendly
 
 
-```{r colnames}
 
-colnames(ox.df) <- c("Country", "Continent_Island", "Citation", "PMID_DOI","YearPublished", "SamplingDate", "Location", 
-                     "CohortCharacteristics", "CohortSize","CohortSizeAntiHBc", "Age", "Anti-HbcPrevalence_perc", 
-                     "Anti-HBc_only_prevalence", "HBsAgPrevalence_perc", "EstimatedSusceptiblePopulation", "AfricanRegion", 
-                     "Anti-HbcPrevalence", "HBsAgPrevalence", "Anti-HBc_HBsAg_ratio")
-# write_csv(ox.df, "AfricaHBV.csv")
-```
 
 
 #### Read in the coordinates
@@ -76,15 +82,6 @@ coords.df <- read_delim("GeoCoding/placesWithlocs.csv", delim = "|", col_names =
 
 colnames(coords.df) <- c("lat", "long", "Place")
 
-# read in the places and simplified places form the geocoding folder
-places.df <- read_csv("GeoCoding/places.csv") %>% 
-  select(c(4,5))
-
-# merge the coordinates with the places df
-
-places.df <- merge(places.df, coords.df, by = "Place")
-
-rm(coords.df)
 ```
 
 <br>
@@ -94,11 +91,16 @@ rm(coords.df)
 <br>
 
 ```{r merge}
-tmp.ox.df <- ox.df
-tmp.ox.df$Place <- paste0(tmp.ox.df$Country, ", ", tmp.ox.df$Location)
 
-ox.df <- merge(tmp.ox.df, places.df, by = "Place") %>% 
-  select(-c(13,15))
+
+tmp.ox.df <- ox.df
+tmp.ox.df$Place <- paste0(tmp.ox.df$Country, " ", tmp.ox.df$Location)
+tmp.ox.df$Place <- gsub( " NA", "", tmp.ox.df$Place)
+
+
+ox.df <- merge(tmp.ox.df, coords.df, by = "Place")
+
+tmp.ox.df[tmp.ox.df$Place %in% ox.df$Place == FALSE, ]
 
 
 rm(tmp.ox.df)
@@ -112,12 +114,6 @@ rm(tmp.ox.df)
 <br>
 
 ```{r createFigs, fig.width=7, fig.height=7}
-
-# create a color palette
-# pal <- colorNumeric(
-#     palette = "viridis",
-#     domain = ox.df$HBsAgPrevalence
-#   )
 
 # read in the shape file
 africa.shp <- readShapeSpatial("Africa_SHP/Africa.shp")
@@ -138,9 +134,9 @@ fig1A <- ggplot()+
                color = "black", size = 0.2, fill = "grey")+
   coord_map()+
   geom_circle(data = ox.df, aes(x0 = long, y0 = lat, 
-                                color = ox.df$HBsAgPrevalence, 
-                                r = log10(ox.df$CohortSize),
-                                fill = ox.df$HBsAgPrevalence), alpha = 0.3)+
+                                color = ox.df$HbsAg_prevalence, #HBsAgPrevalence, 
+                                r = log10(ox.df$Size_of_cohort),
+                                fill = ox.df$HbsAg_prevalence), alpha = 0.3)+
   scale_color_viridis(name = "", direction = -1)+
   scale_fill_viridis(name = "", direction = -1)+
   theme(panel.background = element_blank(), axis.text = element_blank(),
@@ -157,15 +153,16 @@ fig1B <- ggplot()+
                color = "black", size = 0.2, fill = "grey")+
   coord_map()+
   geom_circle(data = ox.df, aes(x0 = long, y0 = lat, 
-                                color = ox.df$`Anti-HBc_only_prevalence`, 
-                                r = log10(ox.df$CohortSizeAntiHBc),
-                                fill = ox.df$`Anti-HBc_only_prevalence`), alpha = 0.3)+
+                                color = ox.df$`Anti-Hbc_prevalence`, #`Anti-HBc_only_prevalence`, 
+                                r = log10(ox.df$Size_of_cohort_ext),
+                                fill = ox.df$`Anti-Hbc_prevalence`), alpha = 0.3)+
   scale_color_viridis(name = "", direction = -1)+
   scale_fill_viridis(name = "", direction = -1)+
   theme(panel.background = element_blank(), axis.text = element_blank(),
         axis.title = element_blank(), axis.ticks = element_blank())+
   ggtitle("B") + theme(plot.title = element_text(size = 30), legend.text = element_text(size = 20))
 
+fig1B
 
 fig1C <- ggplot()+
   geom_polygon(data = africa.plot,
@@ -173,9 +170,9 @@ fig1C <- ggplot()+
                color = "black", size = 0.2, fill = "grey")+
   coord_map()+
   geom_circle(data = ox.df, aes(x0 = long, y0 = lat, 
-                                color = ox.df$EstimatedSusceptiblePopulation, 
-                                r = log10(ox.df$CohortSizeAntiHBc),
-                                fill = ox.df$EstimatedSusceptiblePopulation), alpha = 0.3)+
+                                color = ox.df$Estimated_susceptible_population/100, # To keep consistently have variables as ratios
+                                r = log10(ox.df$Size_of_cohort),
+                                fill = ox.df$Estimated_susceptible_population/100), alpha = 0.3)+
   scale_color_viridis(name = "", direction = -1)+
   scale_fill_viridis(name = "", direction = -1)+
   theme(panel.background = element_blank(), axis.text = element_blank(),
@@ -183,7 +180,7 @@ fig1C <- ggplot()+
   ggtitle("C") + theme(plot.title = element_text(size = 30), legend.text = element_text(size = 20))
 
 
-
+fig1C
 
 ```
 
@@ -193,17 +190,6 @@ fig1C <- ggplot()+
 <br>
 
 ```{r}
-
-# plots = list(fig1G,
-#              fig1H,
-#              fig1I)
-#              
-# figure <- grid.arrange(grobs= lapply(plots, "+", theme(plot.margin=margin(1,1,1,1))), 
-#                        ncol = 3, nrow = 1)
-# 
-# figure <- grid.arrange(arrangeGrob(fig1G, fig1H, fig1I, ncol = 3))
-# 
-# figure
 
 # save the figures seperately and use Inkscape to create the final image
 ggsave("fig1A.jpeg", fig1A, dpi = 600, width = 7, height = 7)

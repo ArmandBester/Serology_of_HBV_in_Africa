@@ -1,7 +1,7 @@
 ---
 title: "AfricanRegions"
 author: "Armand Bester"
-date: "11 September 2018"
+date: "29 September 2018"
 output: html_document
 ---
 
@@ -48,108 +48,13 @@ From the data it seems the grey rows are to be added or there is no data yet.  I
 # ox.df <- ox.df %>%
 #   filter(!is.na(ox.df$Citation))
 
-ox.df <- read_csv("AfricaHBV.csv", col_names = TRUE)
+ox.df <- read_delim("AfricaHBV_update.csv", col_names = TRUE, delim = "|") 
+
+ox.df <- ox.df %>%   
+  select(c(19:23)) %>% 
+  filter(!is.na(ox.df$Country_agg))
 ```
 
-
-#### Average by country 
-
-<br>
-
-Average Anit-HBc only
-
-<br>
-
-```{r AvgAntiHbcOnly}
-
-### Do some ground work
-
-AntiHBcOnly <- ox.df %>% 
- group_by(Country) %>% 
-  summarise(mean = mean(`Anti-HBc_only_prevalence`), n = n())
-
-colnames(AntiHBcOnly) <- c("country", "AntiHBcOnly", "n")
-
-```
-
-<br>
-
-Average the anti-HBc prevelance 
-
-<br>
-
-```{r AvgAntiHbc}
-
-AntiHBc <- ox.df %>% 
- group_by(Country) %>% 
-  summarise(mean = mean(`Anti-HbcPrevalence`), n = n())
-
-colnames(AntiHBc) <- c("country", "AntiHBc", "n")
-
-```
-
-<br>
-
-Average the Estimated suseptable population size
-
-<br>
-
-```{r EstSusPop}
-
-EstSusPop <- ox.df %>% 
- group_by(Country) %>% 
-  summarise(mean = mean(EstimatedSusceptiblePopulation), n = n())
-
-colnames(EstSusPop) <- c("Country", "EstSusPop", "n")
-
-```
-
-<br>
-
-Average the SAg prevelance
-
-<br>
-
-```{r SAgPrev}
-
-HBsAgPrevalence <- ox.df %>% 
- group_by(Country) %>% 
-  summarise(mean = mean(HBsAgPrevalence), n = n())
-
-colnames(HBsAgPrevalence) <- c("country", "HBsAgPrevalence", "n")
-
-
-```
-
-<br>
-
-#### Combine the prevelance data by region into one convenient dataframe
-
-<br>
-
-```{r combine}
-
-plot.df <- cbind(AntiHBc[,c(1,2)], AntiHBcOnly[,2], 
-                 EstSusPop[,2], HBsAgPrevalence[,c(2,3)])
-
-# clean up a bit
-rm(AntiHBc, AntiHBcOnly, HBsAgPrevalence, EstSusPop)
-
-```
-
-<br>
-
-#### Create coutry/region lookup table from Anna's data
-
-<br>
-
-```{r names}
-
-# "Cote d'Ivoire" <- "Cote d`Ivoire"
-plot.df$country <- gsub("Cote d'Ivoire", "Cote d`Ivoire", plot.df$country)
-
-
-```
 
 
 <br>
@@ -169,11 +74,9 @@ gpclibPermit()
 # convert the shape file to a dataframe
 africa.shp.f <- fortify(africa.shp, region = "COUNTRY")
 
-# merge regional data
-# merge.shp.coef<-merge(africa.shp.f, region.lookup.df, by="id", all.x=TRUE)
 
 # merge prevelance data
-merge.shp.coef <- merge(africa.shp.f, plot.df, by.x = "id", by.y = "country", all.x=TRUE)
+merge.shp.coef <- merge(africa.shp.f, ox.df, by.x = "id", by.y = "Country_agg", all.x=TRUE)
 
 # correctly order the polygon data
 final.plot<-merge.shp.coef[order(merge.shp.coef$order), ] 
@@ -181,7 +84,7 @@ final.plot<-merge.shp.coef[order(merge.shp.coef$order), ]
 # plot
 fig1D<- ggplot()+
   geom_polygon(data = final.plot,
-               aes(x = long, y = lat, group = group, fill = final.plot$HBsAgPrevalence),
+               aes(x = long, y = lat, group = group, fill = final.plot$HbsAg_prevalence_country/100), # for consitently using ratios
                color = "black", size = 0.2)+
   coord_map()+
   scale_fill_distiller(palette = "Greens", direction = 1, name = "")+
@@ -189,11 +92,12 @@ fig1D<- ggplot()+
         axis.title = element_blank(), axis.ticks = element_blank())+
   ggtitle("D") + theme(plot.title = element_text(size = 30), legend.text = element_text(size = 20))
 
+fig1D
 
 # plot
 fig1E <- ggplot()+
   geom_polygon(data = final.plot,
-               aes(x = long, y = lat, group = group, fill = final.plot$AntiHBc),
+               aes(x = long, y = lat, group = group, fill = final.plot$`Anti-Hbc_prevalence_country`/100),
                color = "black", size = 0.2)+
   coord_map()+
   scale_fill_distiller(palette = "Greens", direction = 1, name = "")+
@@ -201,10 +105,13 @@ fig1E <- ggplot()+
         axis.title = element_blank(), axis.ticks = element_blank())+
   ggtitle("E") + theme(plot.title = element_text(size = 30), legend.text = element_text(size = 20))
 
+fig1E
+
+
 # plot
 fig1F <- ggplot()+
   geom_polygon(data = final.plot,
-               aes(x = long, y = lat, group = group, fill = final.plot$EstSusPop),
+               aes(x = long, y = lat, group = group, fill = final.plot$Estimated_susceptible_population_country/100),
                color = "black", size = 0.2)+
   coord_map()+
   scale_fill_distiller(palette = "Greens", direction = 1, name = "")+
@@ -212,7 +119,7 @@ fig1F <- ggplot()+
         axis.title = element_blank(), axis.ticks = element_blank())+
   ggtitle("F") + theme(plot.title = element_text(size = 30), legend.text = element_text(size = 20))
 
-
+fig1F
 
 # resources for geoplotting
 
@@ -220,6 +127,7 @@ fig1F <- ggplot()+
 # http://rforpublichealth.blogspot.com/2015/10/mapping-with-ggplot-create-nice.html
 
 ```
+
 
 <br>
 #### Final figure

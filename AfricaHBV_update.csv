@@ -1,0 +1,128 @@
+Country|Location|Country_ID_for_study|Continent_or_Island|Citation|PMID_or_DOI|Year_published|Collected|CohortCharacteristics|Size_of_cohort|Size_of_cohort_ext|Age_of_cohort|Anti-HBc_and_HBsAg negative_prevalence |Estimated_susceptible_population|African_Region|Anti-Hbc_prevalence|HbsAg_prevalence|Anti-Hbc_HbsAg_ratio|Country_agg|Anti-Hbc_prevalence_country|HbsAg_prevalence_country|Estimated_susceptible_population_country|HbcAb_includes_HBsAg|Study_Weight|Number
+Algeria||Algeria|Continent|||||||||||North||||Algeria||||||
+Angola|Luanda|Angola|Continent|Mem Inst Oswaldo Cruz. 2010 Dec;105(8):970-7.|PMID: 21225192|2010|NK|Hospital visitors|508|508|Median 34|64.6|20.3|Central|0.8|0.15|5.28|Angola|79.7|15.1|20.3|Yes|100|1
+Benin|Cotonou|Benin 1|Continent|J Hepatol. 2008 Apr;48(4):532-9.|DOI: 10.1016/j.jhep.2007.11.017|2008|NK|Hospital trial, healthy volunteers|305|305|Mean 26.9  |67.53|24.6|West|0.75|0.08|9.58|Benin|78.91|11.54|21.09|Yes |51.87|0.52
+Benin|Atacora District|Benin 2|Continent|J Med Virol. 2014 Aug;86(8):1281-7|DOI: 10.1002/jmv.23951|2014|2011|Antenatal |283|283|Mean 26.2|67.2|17.3|West|0.83|0.16|5.34|||||Yes|48.13|0.48
+Botswana|Gaberone|Botswana|Continent|Open Forum Infect Dis. 2016 Aug 16;3(3):ofw140.|DOI: 10.1093/ofid/ofw140|2016|NK|HIV positive|295|295|Median 36 .0|24.7|66|South|0.34|0.09|3.66|Botswana|34|9.3|66|Yes|100|1
+Burkina Faso|Bobo Dioulasso|Burkina Faso 1|Continent|Med Mal Infect. 2013 May;43(5):202-7|DOI: 10.1016/j.medmal.2013.04.001|2013|2008|HIV positive|996|996|Median 38.0|70.5|16.7|West|0.83|0.13|6.51|Burkina Faso|79.62|13.79|20.38|Yes|65.4|0.65
+Burkina Faso|Ouagadougou|Burkina Faso 2|Continent|J Med Virol. 2006 May;78(5):683-92.|DOI: 10.1002/jmv.20593|2006|2003-04|Blood donors, antenatal|238|238|Mean 25.7|59.1|23.6|West|0.76|0.17|4.42|||||Yes|15.63|0.16
+Burkina Faso|Nouna|Burkina Faso 3|Continent|J Med Virol. 2006 May;78(5):683-92.|DOI: 10.1002/jmv.20593|2006|2003-04|Blood donors, antenatal|289|289|Mean 25.3|55.3|30.4|West|0.7|0.14|4.87|||||Yes|18.98|0.19
+Burundi||Burundi|Continent|||||||||||East||||Burundi||||||
+Cape Verde||Cape Verde|Island|||||||||||West||||Cape Verde||||||
+Cameroon|Mvog-Ada|Cameroon 1|Continent|BMC Public Health. 2016 Aug 3;15:706.|DOI: 10.1186/s12889-016-3388-z.|2016|NK|Healthcare workers|100|100|Mean 30.5 |18|71|Central|0.29|0.11|2.64|Cameroon|53.78|14.68|46.22|Yes|7.06|0.07
+Cameroon|Yaounde|Cameroon 2|Continent|Curr HIV Res. 2016;14(2):165-71.|PMID: 26419862|2016|2010|HIV positive|212|212|Median 37.6 |39.1|49.1|Central|0.51|0.12|4.31|||||Yes|14.96|0.15
+Cameroon|Southwest Region|Cameroon 3|Continent|Trans R Soc Trop Med Hyg. 2013 Mar;107(3):158-64|DOI: 10.1093/trstmh/trs087|2013|2011|Healthcare workers|237|237|Median 34.0|67.1|26.6|Central|0.73|0.06|11.65|||||Yes|16.73|0.17
+Cameroon|Yaounde|Cameroon 4|Continent|HIV Medicine (2010), 11 , 85–89|DOI: 10.1111/j.1468-1293.2009.00742.x|2009|2001-2003|HIV positive|169|169|Median 35.0|71.6|18.3|Central|0.82|0.1|8.09|||||Yes|11.93|0.12
+Cameroon|South West and Littoral regions|Cameroon 5|Continent|Virol J. 2016 Oct 21;13(1):178.|DOI 10.1186/s12985-016-0636-x|2016|2013|HIV positive|455|455|Mean 33.8|36.3|38.2|Central|0.62|0.26|2.42|||||Yes|32.11|0.32
+Cameroon|Yaounde|Cameroon 6|Continent |International Journal of Medical Research & Health Sciences, 2019, 8(4): 175-181|ISSN No: 2319-5886|2019|2018|Oncology patients (not HCC)|244|244|Mean 44.07 ± 1.57 years|3.27|86.89|West|0.13|0.033|3.94|||||Yes|17.22|0.17
+Central African Republic ||Central African Republic  1|Continent|BMC Infect Dis. 2013 Jun 24;13:286|DOI: 10.1186/1471-2334-13-286.|2013|2007-2008|Cross-sectional|273|273|Mean 27 .0|16.5|72.9|Central|0.27|0.11|2.56|Central African Republic|28.93|10.34|71.07|Yes|8.41|0.08
+Central African Republic |Bangui|Central African Republic 2|Continent|BMC Infect Dis. 2010 Jul 29;10:226|DOI: 10.1186/1471-2334-10-226.|2010|2007|Students|801|801|Mean 20.8 |25.8|58.7|Central|0.41|0.16|2.66|||||Yes|24.68|0.25
+Central African Republic |Bangui|Central African Republic 3|Continent|PLoS Negl Trop Dis. 2018 Apr 26;12(4):e0006377. |DOI: 10.1371/journal.pntd.0006377|2018|2010|Antenatal, students|2172|2172|Mean 23.1|16.2|75.4|Central|0.25|0.08|2.93|||||Yes|66.91|0.67
+Chad||Chad|Continent|||||||||||Central||||Chad||||||
+Comoros||Comoros|Island|||||||||||East||||Comoros||||||
+cote d'Ivoire|Grand Bassam|cote d'Ivoire 1|Continent|Ann Trop Med Parasitol. 2009 Sep;103(6):519-27|DOI: 10.1179/136485909X451816.|2009|2007|Mothers|836|836|Mean 28.7 |62.4|27.7|West|0.72|0.1|7.3|Cote d`Ivoire|70.37|11.89|29.63|Yes|34.5169281585467|0.35
+Cote d'Ivoire||Cote d'Ivoire 2|Continent|Trans R Soc Trop Med Hyg. 2001 Sep-Oct;95(5):493-6.|PMID: 11706657|2001|1995-6|HIV/STI testing clinic|429|429|Range 20-50 |71.7|18.4|West|0.82|0.1|8.24|||||Yes|17.7126341866226|0.18
+Cote d'Ivoire|Abidjan|Cote d'Ivoire 3|Continent|World J Hepatol. 2012 Jul 27;4(7):218-23. |DOI: 10.4254/wjh.v4.i7.218.|2012|2006|HIV positive|491|491|Mean 36 .0|59.5|27.1|West|0.73|0.13|5.44|||||Yes|20.2725020644096|0.2
+Cote d'Ivoire|Abidjan|Cote d'Ivoire 4|Continent|Antivir Ther. 2010;15(7):1029-34. |DOI: 10.3851/IMP1641|2010|2006|HIV positive|495|495|Median 35.0 |42|45|West|0.55|0.13|4.23|||||Yes|20.4376548307184|0.2
+Cote d'Ivoire|Valley of Bandarna-Bouake|Cote d'Ivoire 5|Continent|Viral hepatitis B an occupational hazard in the Valley of Bandama Bouake, Immunology 2004: Cytokine Network, Regulatory Cells, Signalling, and Apoptosis, Appendix (2004)|http://apps.webofknowledge.com/full_record.do?product=WOS&search_mode=GeneralSearch&qid=3&SID=F5GYDg3YPGVY1TBztwz&page=1&doc=1|2004|NK|Healthcare workers, hotel staff, military|171|171|NK|51|30|West|0.7|0.19|3.68|||||Yes|7.06028075970273|0.07
+Democratic Republic of the Congo|Kisantu|Democratic Republic of the Congo|Continent |Industrial Health 2019, 57, 621–626|10.2486/indhealth.2018-0166|2019|2015-16|Healthcare workers|97|97|mean 41.2 ± 10.1 |29.9|43.3|Central|0.57|0.27|2.11|Democratic Republic of Congo|56.7|26.8|43.3|Yes|100|1
+Djibouti||Djibouti|Continent|||||||||||East||||Djibouti||||||
+Egypt|Tanta City|Egypt 1|Continent|J Transl Int Med. 2017 Jun 30;5(2):100-105.|DOI: 10.1515/jtim-2017-0012|2017|2014-2015|Healthcare workers|564|564|Mean 33.0 |23.1|75.5|North|0.25|0.01|17.5|Egypt|21.3|3.26|78.7|Yes|48.45|0.48
+Egypt|Ismailia|Egypt 2|Continent |Braz J Microbiol. 2019 Nov 1. doi: 10.1007/s42770-019-00174-3|https://doi.org/10.1007/s4277|2019|NK|Antenatal Clinic |600|600|mean 27.76 ± 6.77|13.3|81.7|North|0.18|0.05|3.6|||||Yes|51.55|0.52
+Equatorial Guinea||Equatorial Guinea|Continent|Am. J. Trop. Med. Hyg., 88(4), 2013, pp. 789–794|DOI:10.4269/ajtmh.12-0319|2013|2002-2008|Immigrants from Equatorial Guinea Living in Spain|1220|1220|Median 41.0|59.4|32.7|Central|0.67|0.08|8.52|Equatorial Guinea|67.3|7.9|32.7|Yes|100|1
+Eritrea|Massawa|Eritrea 1|Continent|Clin Diagn Virol. 1998 Jan;9(1):29-35.|PMID: 9562856|1998|1995|Sex workers (Female)|107|107|Median 24.5 |50|47|East|0.53|0.03|17.67|Eritrea|35.71|2.17|64.29|Yes|44.58|0.45
+Eritrea|Eritrea|Eritrea 2|Continent |Journal of Travel Medicine, Volume 26, Issue 6, 2019|https://doi.org/10.1093/jtm/taz035|2019|2016-2017|Asylum seekers to Switzerland|133|133|Median 25 (range  16-61)|20.3|78.2|East|0.2|0.015|13.33|||||Yes|55.42|0.55
+Ethiopia|Addis Ababa|Ethiopia 1|Continent|Sex Transm Infect. 2008 Feb;84(1):37-41|DOI: 10.1136/sti.2007.027326|2008|2007|HIV testing clinic|620|620|Mean 29.5|39.1|55.2|East|0.45|0.06|7.86|Ethiopia|36.22|5.07|63.78|Yes|41.2|0.41
+Ethiopia|Hawassa|Ethiopia 2|Continent|Epidemiol Health. 2016 Jan 5;38:e2016001|DOI: 10.4178/epih/e2016001|2016|2014-2015|Medical waste handlers|156|156|Mean 31.6|38.1|60.6|East|0.39|0.01|30.31|||||Yes|10.37|0.1
+Ethiopia|Addis Ababa|Ethiopia 3|Continent|BMC Res Notes. 2011 Nov 3;4:479.|DOI: 10.1186/1756-0500-4-479.|2011|NK|Medical waste handlers|126|126|Mean 35.7|41.3|52.4|East|0.48|0.06|7.56|||||Yes|8.37|0.08
+Ethiopia|Addis Ababa|Ethiopia 4|Continent|BMC Res Notes. 2011 Nov 3;4:479.|DOI: 10.1186/1756-0500-4-479.|2011|NK|Non medical waste handlers|126|126|Mean 33.5|30.9|68.3|East|0.32|0.01|39.63|||||Yes|8.37|0.08
+Ethiopia|Hawassa|Ethiopia 5|Continent|HIV AIDS (Auckl). 2017 Dec 1;9:203-210|PMID:29238229|2017|2014|HIV positive|477|477|Mean 33.4|15.9|77.8|East|0.22|0.06|3.52|||||Yes|31.69|0.32
+Gabon|Haut Ogooue Province|Gabon 1|Continent|J Med Virol. 2006 Sep;78(9):1175-84.|DOI: 10.1002/jmv.20678|2006|2001 onwards|Equatorial forest villagers|311|311|Mean 38.0|78.2|13.2|Central|0.87|0.09|10.09|Gabon|66.33|9|33.67|Yes|19.94|0.2
+Gabon|Franceville|Gabon 2|Continent|PLoS One. 2016 Jan 14;11(1):e0143869.|DOI: 10.1371/journal.pone.0143869|2016|2010-2013|HIV positive|762|762|Median 41.5|71|19.7|Central|0.8|0.09|8.63|||||Yes|48.85|0.49
+Gabon|Libreville|Gabon 3|Continent|PLoS One. 2018 Jan 9;13(1):e0190592|DOI: 10.1371/journal.pone.0190592.g004|2018|2015-2016|HIV positive|487|487|Median 44.0|22.6|68.6|Central|0.31|0.09|3.57|||||Yes|31.22|0.31
+Gambia||Gambia 1|Continent|BMC Infect Dis. 2014 Jan 7;14:7|PMID: 24397793|2014|2007-2008|Vaccinated young adults|278|278|NK|26.6|72.6|West|0.27|0.01|34.25|Gambia|45.44|8.12|54.56|Yes|36.92|0.37
+Gambia||Gambia 2|Continent|BMC Infect Dis. 2014 Jan 7;14:7|PMID: 24397793|2014|2007-2008|Unvaccianted young adults|475|475|NK|43.6|44|West|0.56|0.12|4.52|||||Yes|63.08|0.63
+Ghana||Ghana|Continent|||||||||||West||||Ghana||||||
+Guinea||Guinea|Continent|||||||||||West||||Guinea||||||
+Guinea-Bissau|Bissau|Guinea-Bissau|Continent|PLoS One. 2014 Jun 10;9(6):e99971.|DOI: 10.1371/journal.pone.0099971.|2014|2011|HIV positive|576|576|Median 38.0|78.4|5.3|West|0.95|0.16|5.81|Guinea-Bissau|94.7|16.3|5.3|Yes|100|1
+Kenya||Kenya 1|Continent|Am J Trop Med Hyg. 2016 Aug 3;95(2):348-53.|DOI: 10.4269/ajtmh.16-0059|2016|2007|Cross-sectional|1091|1091|Range 15-64 |29.4|68.5|East|0.32|0.02|15|Kenya|32.28|4.02|67.72|Yes|67.51|0.68
+Kenya|Coastal Kenya|Kenya 2|Continent|Open Forum Infect Dis. 2016 Dec 7;4(1):ofw253.|DOI: 10.1093/ofid/ofw253.|2017|2014|HIV negative MSM|525|525|NK|25.9|66.1|East|0.34|0.08|4.24|||||Yes|32.49|0.32
+Lesotho|Mafeteng Government Hospital|Lesotho|Continent|Sex Transm Dis. 2010 Jul;37(7):454-9|DOI: 10.1097/OLQ.0b013e3181cfcc2b|2010|2007|HIV positive|205|205|Median 42.0|30|64.5|South|0.36|0.06|6.45|Lesotho|35.5|5.5|64.5|Yes|100|1
+Liberia||Liberia|Continent|||||||||||West||||Liberia||||||
+Libya|Eastern Libya|Libya 1|Continent|J Infect Public Health. 2014 Nov-Dec;7(6):534-41|DOI: 10.1016/j.jiph.2014.07.006.|2014|2008-2009|Healthcare workers|601|601|Mean 32.9|6.7|91.5|North|0.09|0.02|4.72|Libya|15.7|1.23|84.3|Yes|18.18|0.18
+Libya|Tripoli|Libya 2|Continent|J Infect Public Health. 2013 Aug;6(4):246-51|DOI: 10.1016/j.jiph.2013.02.001|2013|2011|Healthcare workers|2704|2704|Mean 35.5|16.2|82.7|North|0.17|0.01|15.73|||||Yes|81.82|0.82
+Madagascar||Madagascar|Island|Journal of Medical Virology 82:1515–152|DOI: 10.1002/jmv.21865|2010|NK|Sugarcane plantation workers|563|563|Median 29.0|57|34.5|East|0.66|0.09|7.71|Madagascar|65.5|8.5|34.5|Yes|100|1
+Malawi|Lilongwe|Malawi|Continent|Journal of Hepatology. 2014 ;60(3):508-514|DOI: 10.1016/j.jhep.2013.10.029|2014|2004-2009|HIV positive, antenatal |2369|2369|Median 25.0|43.3|51.7|East|0.48|0.05|9.66|Malawi|48.3|5|51.7|Yes|100|1
+Mali||Mali|Continent|||||||||||West||||Mali||||||
+Mauritania|Nouakchott|Mauritania 1|Continent|Journal of Medical Virology 84:1186–1198 (2012)|DOI: 10.1002/jmv.23336|2012|2008-2009|Antenatal |1020|1020|Mean 26.5|55.6|33.7|West|0.66|0.11|6.2|Mauritania|71.21|14.36|28.79|Yes|51.88|0.52
+Mauritania|Nouakchott|Mauritania 1|Continent|Journal of Medical Virology 84:1186–1198 (2012)|DOI: 10.1002/jmv.23336|2012|2008-2009|Patients|946|946|Mean 34.6|58.2|23.5|West|0.77|0.18|4.18|||||Yes|48.12|0.48
+Mauritius||Mauritius|Island|||||||||||East||||Mauritius||||||
+Mayotte||Mayotte|Island|||||||||||East||||Mayotte||||||
+Morocco||Morocco 1|Continent|Occupational Medicine 2008;58:419–424|DOI:10.1093/occmed/kqn071|2008|2000|Healthcare workers|420|420|Mean 41.4|27|72|North|0.28|0.01|28|Morocco|23.88|1.52|76.12|Yes|34.54|0.35
+Morocco|Rabat|Morocco 2|Continent|East Mediterr Health J. 2011 Dec;17(12):911-9.|PMID: 22355943|2011|2007|Barbers and clients|796|796|NK|19.9|78.3|North|0.22|0.02|12.06|||||Yes|65.46|0.65
+Mozambique|Maputo|Mozambique 1|Continent|J Med Virol. 2007 Dec;79(12):1832-40.|DOI: 10.1002/jmv.21010|2007|2004|Blood donors|1578|1578|Mean 32.8|55.2|35.5|East|0.65|0.09|6.94|Mozambique|65.09|9.25|34.91|Yes|75.29|0.75
+Mozambique|Maputo|Mozambique 2|Continent |PLoS One. 2018; 13(1): e0190775.|10.1371/journal.pone.0190775|2018|2012|HIV positive individuals|518|518|Median 33|57.8|33.1|East|0.67|0.09|7.44|||||Yes|24.71|0.25
+Namibia|West Caprivi|Namibia|Continent|East Afr Med J. 1995 Jan;72(1):30-2|PMID: 7781552|1995|NK|Bushmen|106|106|NK|43|39|South|0.61|0.18|3.39|Namibia|61|18|39|yes|100|1
+Niger|Niamey|Niger|Continent|PLoS One. 2012;7(9):e44442. DOI: 10.1371/journal.pone.0044442. Epub 2012 Sep 7|PMID: 22970218|2012|2009|Healthcare workers|207|207|NK|76.7|8|West|0.92|0.15|6.01|Niger|92|15.3|8|Yes|100|1
+Nigeria |Kano state|Nigeria 1|Continent|Med Sci (Basel). 2017 Oct 18;5(4). pii: E24.|DOI: 10.3390/medsci5040024.|2017|NK|Antenatal |160|160|NK|31.3|61.8|West|0.38|0.07|5.54|Nigeria|59.58|11.57|40.42|Yes|3.97|0.04
+Nigeria|Lagos|Nigeria 2|Continent|East Afr Med J. 2000 May;77(5):283-5.|PMID: 12858922|12858922|NK|Healthcare workers (surgeons)|167|167|Mean 32.3|36|38.3|West|0.62|0.26|2.4|||||Yes|4.14|0.04
+Nigeria|Lagos|Nigeria 3|Continent|East Afr Med J. 2000 May;77(5):283-5.|PMID: 12858922|12858922|NK|Admin staff (hospital)|193|193|Mean 32.3|38.4|46.6|West|0.53|0.15|3.56|||||Yes|4.79|0.05
+Nigeria|Ibadan|Nigeria 4|Continent|J Immunoassay Immunochem. 2017;38(6):639-651|DOI: 10.1080/15321819.2017.1384389|2017|2012-2013|Antenatal |272|272|NK|38.6|55.9|West|0.44|0.06|8.02|||||Yes|6.75|0.07
+Nigeria|Lagos|Nigeria 5|Continent|Trans R Soc Trop Med Hyg. 2007 May;101(5):465-8|DOI: 10.1016/j.trstmh.2006.08.001|2007|2005|Students|231|231|Mean 24.3 |22.1|74|West|0.26|0.04|6.67|||||Yes|5.73|0.06
+Nigeria||Nigeria 6|Continent|Am J Trop Med Hyg. 2016 Oct 5;95(4):902-907|DOI: 10.4269/ajtmh.15-0874|2016|2013-2014|Cross-sectional|965|965|Mean 37.2 |42.4|45.4|West|0.55|0.12|4.48|||||Yes|23.95|0.24
+Nigeria||Nigeria 7|Continent|Afr J Med Med Sci. 2012 Dec;41(4):387-91|PMID: 23672103|2012|NK|Healthcare workers|88|88|NK|43|44|West|0.56|0.13|4.31|||||Yes|2.18|0.02
+Nigeria|Lagos|Nigeria 8|Continent|Niger Postgrad Med J. 2002 Sep;9(3):129-33.|PMID: 12501266|2002|NK|Diabetics|100|100|NK|25|55|West|0.45|0.2|2.25|||||Yes|2.48|0.02
+Nigeria |Lagos|Nigeria 9|Continent|Niger Postgrad Med J. 2002 Sep;9(3):129-33.|PMID: 12501266|2002|NK|Outpatients|80|80|NK|39.5|43|West|0.57|0.18|3.26|||||Yes|1.99|0.02
+Nigeria|Benue|Nigeria 10|Continent|Open Journal of Medical Microbiology, 2014, 4, 1-10|DOI: 10.4236/ojmm.2014.41001|2014|2011-2013|Cross-sectional|1535|1535|NK|71|17|West|0.83|0.12|6.92|||||Yes|38.09|0.38
+Nigeria|Ibadan|Nigeria 11|Continent |J Immunoassay Immunochem. 2019;40(3):237-249|10.1080/15321819.2018.1555764|2018|NK|Healthy' hopsital visitors|239|239|NK|0.4|94.6|West|0.05|0.05|1.08|||||Yes|5.93|0.06
+Reunion|Reunion |Reunion 1|Island|Bull Soc Pathol Exot. 2000 Feb;93(1):34-40.|PMID: 10774493|2000|1998-1999|Antenatal|1455|1455|NK|5.72|93.65|East|0.06|0.01|10.08|Reunion|6.58|0.72|93.42|Yes|93.57|0.94
+Reunion|Reunion |Reunion 2|Island|Bull Soc Pathol Exot. 2000 Feb;93(1):34-40.|PMID: 10774493|2000|1998-1999|Prison|100|100|NK|8|90|East|0.1|0.02|5|||||Yes|6.43|0.06
+Rwanda|Kigali|Rwanda 1|Continent|PLoS One. 2013 May 22;8(5):e63303.|DOI: 10.1371/journal.pone.0063303|2013|2007-2010|HIV positive|418|418|Mean 34.6 |43|51.8|East|0.48|0.05|9.27|Rwanda|32.38|4.56|67.62|Yes|41.84|0.42
+Rwanda||Rwanda 2|Continent|BMC Infect Dis. 2017 Jan 6;17(1):32|DOI: 10.1186/s12879-016-2149-z.|2017|2014|Blood donors|581|581|NK|16.9|79|East|0.21|0.04|5.12|||||Yes|58.16|0.58
+Sao Tome and Principe||Sao Tome and Principe|Island|||||||||||Central||||Sao Tome and Principe||||||
+Senegal|Dakar|Senegal 1|Continent|J Med Virol. 2016 Mar;88(3):461-5.|DOI: 10.1002/jmv.24344|2016|2006-2010|HIV positive|466|466|Median 39|67.34|23.86|West|0.76|0.09|8.65|Senegal|81.57|12.32|18.43|Yes|23.09|0.23
+Senegal|Dakar|Senegal 2|Continent|J Med Virol. 2008 Aug;80(8):1332-6|DOI: 10.1002/jmv.21236.|2008|1998-2002|HIV positive|363|363|Mean 38|66.4|16.8|West|0.83|0.17|4.95|||||Yes|76.91|0.77
+Seychelles||Seychelles|Island|||||||||||East||||Seychelles||||||
+Sierra Leone|Freetown|Sierra Leone 1|Continent |PLoS One. 2018 Aug 10;13(8):e0201820|10.1371/journal.pone.0201820|2018|2017|Healthcare workers|447|447|NK|20.1|71.2|West|0.29|0.09|3.33|Sierra Leone|23.83|9.12|76.17|Yes|67.93|0.68
+Sierra Leone|Freetown|Sierra Leone 2|Continent |BMC Infect Dis. 2018 Jul 9;18(1):315.|10.1186/s12879-018-3235-1.|2018|2017|Healthcare workers|211|211|median 39.0 range (18-59)|3.3|86.7|West|0.13|0.1|1.33|||||Yes|32.07|0.32
+Somalia|Mogadishu|Somalia 1|Continent|Epidemiol Infect. 2000 Feb;124(1):137-41|PMID: 10722141|2000|1995|Blood donors|115|115|NK|28.7|52.2|East|0.48|0.19|2.5|Somalia|54.54|14.12|45.46|Yes|13.53|0.14
+Somalia||Somalia 2|Continent|Mayo Clin Proc. 2012 Jan;87(1):17-24|DOI: 10.1016/j.mayocp.2011.08.001.|2012|1996-2009|Somali refugees in US|735|1109|NK|42|44.4|East|0.56|0.14|4.09|||||Yes|86.47|0.86
+South Africa|Gauteng and Mpumalanga province|South Africa 1|Continent|Vaccine. 2016 Jul 19;34(33):3835-9.|DOI: 10.1016/j.vaccine.2016.05.040.|2016|2009-2012|Healthcare workers|333|333|Mean 38.8  |29|61.4|South|0.39|0.1|4.02|South Africa|39.71|9.76|60.29|Yes|9.51|0.1
+South Africa|Tshwane District Hospital, Pretoria, Gauteng province|South Africa 2|Continent|S Afr Med J. 2012 Feb 23;102(3 Pt 1):157-62.|PMID: 22380911|2012|2007-2009|HIV negative|200|200|Mean 31 |1.5|96.5|South|0.04|0.02|1.75|||||Yes|5.71|0.06
+South Africa|Tshwane District Hospital, Pretoria, Gauteng province|South Africa 3|Continent|S Afr Med J. 2012 Feb 23;102(3 Pt 1):157-62.|PMID: 22380911|2012|2007-2009|HIV positive|200|200|Mean 37 |9.5|84|South|0.16|0.07|2.46|||||Yes|5.71|0.06
+South Africa|Johannesburg|South Africa 4|Continent|Int J Infect Dis. 2009 Jul;13(4):488-92.|DOI: 10.1016/j.ijid.2008.08.018.|2009|NK|HIV positive, outpatients|502|502|Mean 39.9 |10.6|84.6|South|0.15|0.05|3.21|||||Yes|14.34|0.14
+South Africa|Medunsa Campus, Pretoria|South Africa 5|Continent|J Clin Virol. 2006 Jan;35(1):14-20.|DOI: 10.1016/j.jcv.2005.04.003|2006|1998-2001|HIV positive|167|167|NK|49.8|15|South|0.85|0.35|2.41|||||Yes|4.77|0.05
+South Africa|Medunsa Campus, Pretoria|South Africa 6|Continent|J Clin Virol. 2006 Jan;35(1):14-20.|DOI: 10.1016/j.jcv.2005.04.003|2006|1998-2001|HIV negative|128|128|NK|65.8|18|South|0.82|0.16|5.06|||||Yes|3.66|0.04
+South Africa|Limpopo|South Africa 7|Continent|S Afr Med J. 2013 May;103(5):330-3.|PMID: 23971125|2013|2008|HIV positive|380|380|NK|40|40|South|0.6|0.2|3|||||Yes|10.86|0.11
+South Africa|Schmidtsdrift|South Africa 8|Continent|East Afr Med J. 1995 Jul;72(7):421-3.|PMID: 7498022|1995|NK|Bushmen|400|400|NK|50.2|43|South|0.57|0.07|8.38|||||Yes|11.43|0.11
+South Africa|University of Limpopo Hosptial|South Africa 9|Continent|J Med Virol. 2009 Mar;81(3):406-12|DOI: 10.1002/jmv.21418|2009|2004-2007|HIV positive|192|192|Nk|15.1|62|South|0.38|0.23|1.66|||||Yes|5.49|0.05
+South Africa|Soweto|South Africa 10|Continent|Int J STD AIDS. 2012 Oct; 23(10): e10–e13.|DOI: 10.1258/ijsa.2009.009340|2012|2002|HIV positive|998|998|Median 29 |32.8|63|South|0.37|0.04|8.81|||||Yes|28.51|0.29
+South Sudan||South Sudan|Continent*|||||||||||East||||South Sudan||||||
+St Helena & Ascension Island||St Helena & Ascension Island|Island|||||||||||West||||St Helena & Ascension Island||||||
+Sudan|Khartoum State|Sudan 1|Continent|Int J Infect Dis. 2014 Dec;29:65-70.|DOI: 10.1016/j.ijid.2014.07.004.|2014|2010-2012| HIV positive |358|358|Mean 35.2|51.1|37.2|North|0.63|0.12|5.37|Sudan|51.9|6.61|48.1|Yes|17.82|0.18
+Sudan|Khartoum State|Sudan 2|Continent|Glob J Health Sci. 2012 May 21;4(4):37-41|DOI: 10.5539/gjhs.v4n4p37.|2012|2004|Healthcare workers|843|843|NK|51|43|North|0.57|0.06|9.5|||||yes|41.96|0.42
+Sudan|Khartoum|Sudan 3|Continent|J Clin Microbiol. 2011 Jan;49(1):298-306.|DOI: 10.1128/JCM.00867-10.|2011|2008|Blood donors|404|404|NK|32|64|North|0.36|0.04|9|||||yes|20.11|0.2
+Sudan|Gezira state|Sudan 4|Continent|Saudi J Gastroenterol. 2007 Apr-Jun;13(2):81-3|DOI: 10.4103/1319-3767.32182|2007|2000|Cross-sectional|404|404|Mean 35 .0|41.5|52.5|North|0.48|0.06|7.92|||||Yes|20.11|0.2
+Swaziland||Swaziland|Continent|||||||||||South||||Swaziland||||||
+Tanzania|Mwanza|Tanzania 1|Continent|BMC Infect Dis. 2015 Sep 23;15:386|DOI: 10.1186/s12879-015-1129-z.|2015|2012|Healthcare workers |598|598|NK|36.5|56.5|East|0.44|0.07|6.21|Tanzania|38.95|6.13|61.05|Yes|67.95|0.68
+Tanzania|Pemba Island and Iringa|Tanzania 2|Continent|J Med Virol. 2010 Sep;82(9):1569-75.|DOI: 10.1002/jmv.21852.|2010|2007|Outpatients|282|282|NK|25|70.7|East|0.29|0.04|6.81|||||Yes|32.05|0.32
+Togo|Lome|Togo 1|Continent|Med Sante Trop. 2014 Jul-Sep;24(3):266-70|DOI: 10.1684/mst.2014.0341|2014|2007|Vaccinated healthcare workers|100|100|Mean 35.2|32|32|West|0.68|0.36|1.89|Togo|79|32.67|21|Yes|33.33|0.33
+Togo|Lome|Togo 2|Continent|Med Sante Trop. 2014 Jul-Sep;24(3):266-70|DOI: 10.1684/mst.2014.0341|2014|2007|Unvaccinated students|50|50|Mean 33.2|32|12|West|0.88|0.56|1.57|||||Yes|16.67|0.17
+Togo|Lome|Togo 3|Continent|J Hepatol. 2008 Apr;48(4):532-9.|DOI: 10.1016/j.jhep.2007.11.017|2008|NK|Hospital trial, healthy volunteers|150|150|NK|60.66|16.67|West|0.83|0.23|3.68|||||Yes|50|0.5
+Tunisia|Sousse|Tunisia 1|Continent|Epidemiol Infect. 2016 Aug 18:1-11|DOI: 10.1017/S0950268816001849|2016|2012|Unvaccinated students|719|719|Mean 19.0|1.4|98.6|North|0.01|0|N/A|Tunisia|26.58|4.93|73.42|Yes|6.92|0.07
+Tunisia|Béja and Tataouine|Tunisia 2|Continent|Vaccine. 2010 Apr 26;28(19):3301-7|DOI: 10.1016/j.vaccine.2010.02.101|2010|1996|Cross-sectional|9486|9486|NK|23.2|71.5|North|0.29|0.05|5.38|||||yes|91.35|0.91
+Tunisia|l’hôpital Aziza-Othmana|Tunisia 3|Continent|Clinique et Biologique 12 (2005) 301–305|DOI:10.1016/j.tracli.2005.07.001|2005|NK|Haemophiliacs|70|70|Mean 19.0|45.8|47.1|North|0.53|0.07|7.45|||||yes|0.67|0.01
+Tunisia|Hospital of Monastir|Tunisia 4|Continent |Med Mal Infect. 2018 May;48(3):175-179.|10.1016/j.medmal.2017.11.006|2018|2012-2014|Haemodialysis patients (established)|109|109|Mean 50 years ± 14.7|4.8|91.5|North|0.09|0.04|2.3|||||Yes|1.05|0.01
+Uganda|Kampala and Entebbe|Uganda 1|Continent|AIDS. 2017, March 21,Price et al, epub|DOI: 10.1097/QAD.0000000000001454|2017|NK|HIV positive|2317|2317|Median 36.0|46|48|East|0.52|0.06|8.67|Uganda|54.03|10.08|45.97|yes|21.28|0.21
+Uganda|Kitgum District|Uganda 2|Continent|Vaccine, Vol 33, Issue 46, 6161–6163|DOI: 10.1016/j.vaccine.2015.09.058|2015|2008|HEV outbreak samples|656|656|NK|48.7|36.4|East|0.64|0.15|4.27|||||yes|6.03|0.06
+Uganda|Gulu Municipality|Uganda 3|Continent|BMC Public Health 2013 13:727|DOI: 10.1186/1471-2458-13-727|2013|2010|Cross-sectional|790|790|NK|54.8|27.6|East|0.72|0.18|4.11|||||yes|7.26|0.07
+Uganda|Mulago|Uganda 4|Continent|BMC Infectious Diseases 2010, 10:191|DOI: 10.1186/1471-2334-10-191|2010|2003|Healthcare workers|370|370|Mean 36.4|40|51.9|East|0.48|0.08|5.94|||||yes|3.4|0.03
+Uganda||Uganda 5|Continent|African Health Sciences Vol 9 No 2 June 2009|PubMed ID: 19652743|2009|2005 onwards|Cross-sectional |5875|5875|NK|42|47.7|East|0.52|0.1|5.08|||||yes|53.97|0.54
+Uganda|Southwestern Uganda|Uganda 6|Continent|J Med Virol. 2011 May; 83(5): 796–800.|DOI: 10.1002/jmv.22051|2011|1998|Cross-sectional |138|138|Median 40.0|36|59|East|0.41|0.05|8.2|||||Yes|1.27|0.01
+Uganda|Mulago|Uganda 7|Continent|East Afr Med J. 2002 Feb;79(2):68-72.|PMID: 12380879|2002|1999-2000|HIV positive|129|129|Mean 34.4|47.3|34.9|East|0.65|0.18|3.66|||||Yes|1.19|0.01
+Uganda|Mulago|Uganda 8|Continent|East Afr Med J. 2002 Feb;79(2):68-72.|PMID: 12380879|2002|1999-2000|HIV negative|129|129|Mean 34.4|28.8|58.1|East|0.42|0.13|3.2|||||Yes|1.19|0.01
+Uganda|Makerere|Uganda 9|Continent|Afr Health Sci. 2005 Jun;5(2):93-8.|PMID: 16006214|2005|2001-2002|Students|182|182|NK (mostly <24)|54.9|34.1|East|0.66|0.11|5.99|||||Yes|1.67|0.02
+Uganda|Gulu Municipality|Uganda 10|Continent|Afr Health Sci. 2015 Jun; 15(2): 328–333.|DOI: 10.4314/ahs.v15i2.4|2015|2013|HIV positive|300|300|Mean 35.65 |34.3|59|East|0.41|0.07|6.12|||||yes|2.76|0.03
+Western Sahara||Western Sahara|Continent*|||||||||||North||||Western Sahara||||||
+Zambia|Lusaka|Zambia|Continent|East Afr Med J. 1995 Dec;72(12):813-5.|PMID: 8689985|1995|NK|Antenatal|2098|2098|NK|51.3|42.2|East|0.58|0.07|8.89|Zambia|57.8|6.5|42.2|yes|100|1
+Zimbabwe|Harare|Zimbabwe|Continent|AIDS. 2017, March 21,Price et al, epub|DOI: 10.1097/QAD.0000000000001454|2017|NK|HIV positive|999|999|Median 36.0|39.6|43.7|East|0.56|0.17|3.37|Zimbabwe|56.3|16.7|43.7|yes|100|1
